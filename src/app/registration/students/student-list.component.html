@@ -1,0 +1,36 @@
+<div class="container custom-container-users">
+    <div class="row" style="margin:10px 0 40px 0px;">
+      <h4> Student Registration </h4>
+    </div>
+    <div class="col-6 col-sm-6 col-md-6 col-lg-6 text-right">
+      <button (click)="goToAddNewStudent()" class="btn btn-primary"> Add New Student</button>
+    </div>
+    <div>
+      <app-alert target="add-student"></app-alert>
+    </div>
+    <div class="row" style="margin-left: 2%">
+      <div class="col-2"> Student Name</div>
+      <div class="col-2"> Email ID</div>
+      <div class="col-2"> Phone Number</div>
+      <div class="col-2"> Address</div>
+    </div>
+  <div class="row" style="border-bottom:2px solid #ccc; padding-top:5px; padding-bottom: 5px; margin-left: 2%">
+  <div class="wrapper-center-block" style="margin-bottom:20px;">
+  <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+      <div class="panel panel-default">
+      <div class="panel-heading active" role="tab" id="headingOneinner" style="border:none; border-bottom:1px solid #CCC;">
+      <div class="row" style="border:none; border-bottom:1px solid #CCC;" *ngFor="let student of students; let i = index; let odd=odd; let even=even;"
+      [ngClass]="{ odd: odd, even: even, 'text-muted':!student.active }">
+      <div class="col-2 text-wrap" (click)="goToEditStudentDetails(student)">{{student.lastName}},{{student.firstName}}</div>
+      <div class="col-3 text-wrap" (click)="goToEditStudentDetails(student)">{{student.studentname}}</div>
+      <i class="material-icons iconOnList" style="margin:5px;" data-toggle="dropdown">more_vert</i>
+      <div class="dropdown-menu">
+      </div>
+      </h4>
+      </div>
+      </div>
+      </div>
+      </div>
+     
+      </div>
+     </div>

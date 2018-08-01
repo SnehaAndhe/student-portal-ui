@@ -1,0 +1,300 @@
+.text-wrap {
+  word-wrap: break-word;
+}
+
+.header {
+  height: 25px;
+  background-color: silver;
+}
+
+#menu {
+  float: left;
+  width: 20%;
+  background-color: pink
+}
+
+.navbar-nav a {
+  color: black !important;
+  text-decoration: none !important;
+}
+
+.navbar-nav a:hover {
+  border-bottom: 2px solid #4A95F2;
+  text-decoration: none !important;
+}
+
+.navbar-nav a.active {
+  border-bottom: 2px solid #4A95F2;
+  color: #4A95F2 !important;
+  text-decoration: none !important;
+}
+
+.goto-edit-physician {
+  margin-left: 150px;
+}
+
+.even {
+  background-color: #efefef;
+  padding-top: 11px !important;
+  padding-bottom: 11px !important;
+}
+
+.odd {
+  background-color: #FFF;
+  padding-top: 11px !important;
+  padding-bottom: 11px !important;
+}
+
+.custom-font-arrow-left {
+  color: rgba(41, 40, 40, 0.835);
+  font-size: 24px;
+  padding: 6px;
+}
+
+.custom-form-group-name {
+  border: 1px solid #CCC;
+  padding: 20px 6px;
+}
+
+.custom-horizontal-line {
+  border: 1px solid #CCC;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.custom-cancel-button,
+.custom-update-button {
+  border: none;
+  box-shadow: none;
+}
+
+.custom-display-organization-details {
+  color: #000;
+  width: 35%;
+  padding-top: 1%;
+  font-weight: bold !important;
+}
+
+.custom-display-address-details {
+  padding-top: 1%;
+}
+
+.custom-display-organization-details h5 {
+  margin-bottom: 0px;
+  font-weight: 500;
+}
+
+.custom-display-location-details {
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.panel-heading a {
+  color: #a0a3a5;
+}
+
+ .panel-heading a:before {
+     font-family: 'Material Icons';
+    content: "keyboard_arrow_down";
+    float: right;
+     transition: all 0.5s;
+ }
+.expandLess a:before {
+  font-family: 'Material Icons';
+  content: "expand_less" !important;
+  float: right;
+  transition: all 0.5s;
+  font-size: 30px !important;    font-weight: 400 !important;
+}
+
+.expandMore a:before {
+  font-family: 'Material Icons';
+  content: "expand_more" !important;
+  float: right;
+  transition: all 0.5s;
+  font-size: 30px !important;
+}
+
+.arrowRight a:before {
+  font-family: 'Material Icons';
+  content: "keyboard_arrow_right" !important;
+  float: right;
+  transition: all 0.5s;
+  font-size: 30px !important;
+}
+
+.panel-default>.panel-heading {
+  color: #333;
+  /* background-color: #f5f5f5; */
+  border: 1px solid #ddd; background: #FFF;
+  width: 98%;
+  margin-left: 2%;
+}
+
+.custom-margin-top-bottom {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.custom-update-button,
+.custom-update-button:hover {
+  border: none;
+  box-shadow: none;
+  color: #2196f3;
+  background-color: #FFF;
+}
+
+/*  For accordion mennu css */
+
+.panel-heading {
+  padding: 0;
+  border: 0;
+}
+
+.panel-title>a,
+.panel-title>a:active {
+  display: block;
+  padding: 15px;
+  color: #555;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+  text-decoration: none;
+} 
+ CSS as per mock
+.enableButton {
+  background: none !important;
+  border: none;
+  padding: 0 !important;
+  color: #33b5e5;
+  font-weight: 500 !important;
+  margin-right: 30px; cursor:pointer;
+}
+
+.cancelButton {
+  background: none !important;
+  border: none;
+  padding: 0 !important;
+  color: grey;
+  cursor: pointer;
+  font-weight: 500 !important;
+  margin-right: 30px;
+}
+
+.row {
+  margin: 0px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.custom-row {
+  padding-bottom: 2px !important;
+  padding-top: 2px !important;
+}
+
+.labelElements {
+  color: grey;width: 35%;
+  font-size: 15px !important;
+  font-weight: 450 !important;
+}
+
+.rowElements {
+  color: black !important;
+  width: 35%;
+  font-size: 15px !important;
+  text-decoration: none;
+}
+
+.handCursor {
+  cursor: pointer;
+}
+
+.iconColor {
+  float: right;
+  transition: all 0.5s;
+  font-size: 20px !important;
+  color: grey;
+  cursor: pointer;
+}
+
+.iconOnList {
+  float: right;
+  transition: all 0.5s;
+  font-size: 30px !important;
+  color: grey;
+  cursor: pointer;
+}
+
+.retrieveButton {
+  padding-right: 0px;
+  margin-top: 20px;
+  text-align: right !important;
+  padding-left: 0px;
+}
+
+.custom-nav {
+  margin-left: 0px;
+}
+
+.collapse.show {
+  width: 98%;
+  margin-left: 2%;
+  display: block;
+}
+
+.border-left-red {
+  border-left: 3px solid #b6746f;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: .1px;
+  background: #f5f5f5 !important;
+}
+
+.bg-light {
+  margin: 0rem;
+  padding: 0rem; 
+   background-color: #ffffff !important; 
+}
+
+.custom-control-user {
+  display: block;
+  position: relative;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.custom-container-location {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.custom-container-users {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.horizontalBorder {
+  border: 0.3px solid #CCC !important;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  margin-right: -5px;
+  margin-left: -5px;
+}
+
+.clasABC :hover {}
+
+.locationHeader {
+  margin-left: 28px;
+}
+
+.locationsTable label {
+  color: black !important;
+}
+
+.locationsTable td {
+  opacity: 1 !important;
+}
