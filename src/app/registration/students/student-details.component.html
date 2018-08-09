@@ -1,4 +1,4 @@
-<div class="container">
+<!-- <div class="container">
     <h3>
         <i class="material-icons handcursor" style="font-size: 28px;" (click)="goToStudent()">arrow_back
         </i>
@@ -41,8 +41,8 @@
                     <div [hidden]="(email.valid || email.untouched) && studentFormUnsubmitted" class="error text-danger">
     
                         <div [hidden]="!email.hasError('required')">{{emailErrors.required}}</div>
-                        <div[hidden]="(email.hasError('required') || !email.haserror('pattern'))"{{email.haserror.email}}></div>
-                        <div[hidden]="(email.hasError('required') || email.haserror('email')) || !email.haserror('invalid'))">{{email.haserror.email}}></div>
+                        <div[hidden]="(email.hasError('required') || !email.haserror('pattern'))">{{email.haserror.email}}</div>
+                        <div[hidden]="(email.hasError('required') || email.haserror('email')) || !email.haserror('invalid'))">{{email.haserror.email}}</div>
 
                     
                     </div>
@@ -58,7 +58,7 @@
         
                             <div [hidden]="!studentID.hasError('required')">{{studentIDErrors.required}}</div>
                             <div[hidden]="(studentID.hasError('required') || !studentID.haserror('pattern'))"{{studentID.haserror.studentID}}></div>
-                            <div[hidden]="(studentID.hasError('required') || studentID.haserror('email')) || !studentID.haserror('invalid'))">{{studentID.haserror.studentID}}></div>
+                            <div[hidden]="(studentID.hasError('required') || studentID.haserror('email')) || !studentID.haserror('invalid'))">{{studentID.haserror.studentID}}</div>
     
                         
                         </div>
@@ -73,7 +73,7 @@
             
                                 <div [hidden]="!phoneAsString.hasError('required')">{{phoneAsStringErrors.required}}</div>
                                 <div[hidden]="(phoneAsString.hasError('minlength')">{{phoneAsString.haserror.minlength}}</div>
-                                <div[hidden]="(phoneAsString.hasError('minlength') || phoneAsString.haserror('pattern')">{{phoneAsString.}}></div>
+                                <div[hidden]="(phoneAsString.hasError('minlength') || phoneAsString.haserror('pattern')">{{phoneAsStringErrors.pattern}}</div>
 
                             </div>
                         </div>
@@ -103,4 +103,4 @@
 
     </div>
     </form>
-</div>
+</div> -->

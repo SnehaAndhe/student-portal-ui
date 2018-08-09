@@ -125,7 +125,7 @@
 
 .panel-default>.panel-heading {
   color: #333;
-  /* background-color: #f5f5f5; */
+
   border: 1px solid #ddd; background: #FFF;
   width: 98%;
   margin-left: 2%;
@@ -143,8 +143,6 @@
   color: #2196f3;
   background-color: #FFF;
 }
-
-/*  For accordion mennu css */
 
 .panel-heading {
   padding: 0;
@@ -297,4 +295,4 @@ body {
 
 .locationsTable td {
   opacity: 1 !important;
-}
+} 

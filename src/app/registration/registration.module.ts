@@ -5,7 +5,7 @@ import { RegistrationRoutingModule } from './../registration/registration-routin
 
 // import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { RegistrationComponent } from './registration.component';
-import { StudentListComponent } from './../registration/students/student-list.component';
+//import { StudentListComponent } from './../registration/students/student-list.component';
 import { StudentDetailsComponent } from './../registration/students/student-details.component';
 
 
@@ -13,11 +13,9 @@ import { StudentDetailsComponent } from './../registration/students/student-deta
   imports: [RegistrationRoutingModule],
   declarations: [
     RegistrationComponent,
-    StudentListComponent,
-    StudentDetailsComponent,
+    //StudentListComponent,
+    StudentDetailsComponent
     
-  ],
-  providers: [
   ]
 })
 export class RegistrationModule { } 
